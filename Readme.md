@@ -4,3 +4,8 @@
 + [TIOJ](https://github.com/ncchen99/Competitive-Programming/tree/master/TIOJ)
 + [GreenJudge](https://github.com/ncchen99/Competitive-Programming/tree/master/GreenJudge)
 + [WHCSC-OJ(自己用的OJ)](https://github.com/ncchen99/Competitive-Programming/tree/master/WHCSC-OJ)
++ [UVA](https://github.com/ncchen99/Competitive-Programming/tree/master/UVA)
++ [CodeForces](https://github.com/ncchen99/Competitive-Programming/tree/master/CodeForces)
++ [51Nod](https://github.com/ncchen99/Competitive-Programming/tree/master/51Nod)
+
+
