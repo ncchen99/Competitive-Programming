@@ -8,5 +8,6 @@
 + [CodeForces](https://github.com/ncchen99/Competitive-Programming/tree/master/CodeForces)
 + [51Nod](https://github.com/ncchen99/Competitive-Programming/tree/master/51Nod)
 + [UVA/CPE1Star](https://github.com/ncchen99/Competitive-Programming/tree/master/UVA/CPE1Star)
++ [HWSH-OJ](https://github.com/ncchen99/Competitive-Programming/tree/master/HWSH-OJ)
 
 
