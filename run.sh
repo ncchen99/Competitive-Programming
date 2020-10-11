@@ -1,5 +1,5 @@
 OPTION=1
-while getopts "-?" opt; do  
+while getopts "?" opt; do  
     git add .
     git commit -m $opt
     git push GitHub master
