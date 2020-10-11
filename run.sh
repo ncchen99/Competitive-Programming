@@ -1,6 +1,6 @@
-git add .
-git commit -m "1008"
-git push GitHub master
-ncchen99
-nbchen11
-
+OPTION=1
+while getopts "" opt; do  
+    git add .
+    git commit -m $opt
+    git push GitHub master
+done
