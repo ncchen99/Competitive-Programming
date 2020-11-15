@@ -2,8 +2,8 @@
 using namespace std;
 const int maxn = 500001;
 int main() {
-    // ios::sync_with_stdio(0);
-    // cin.tie(0);
+    ios::sync_with_stdio(0);
+    cin.tie(0);
     int n, t[maxn], m, s, e;
     cin >> n;
     int k = sqrt(n), c[n / k + 1] = {};
@@ -13,11 +13,6 @@ int main() {
         for (int j = i; j < n && j < i + k; j++) ext = max(ext, t[j]);
         c[i / k] = ext;
     }
-    for (int i = 0, j = 0; i < n; i += k, j++)
-        cout << j << ' ';
-    cout << endl;
-    for (int i = 0, j = 0; i < n; i += k, j++)
-        cout << c[j] << ' ';
     cin >> m;
     while (m--) {
         cin >> s >> e;
@@ -28,16 +23,18 @@ int main() {
         for (int i = s; s % k && i < s + k - (s % k); i++)
             ext = max(ext, t[i]);
         for (int i = (s % k ? s + k - (s % k) : s);
-             i < e - (e % k); i += k) {
+             i < e - (e % k); i += k)
             ext = max(ext, c[i / k]);
-            cout << i / k << ' ';
-        }
-        cout << endl;
         for (int i = e - (e % k); i <= e; i++)
             ext = max(ext, t[i]);
         cout << ext << '\n';
     }
-    system("pause");
+    // system("pause");
+    // for (int i = 0, j = 0; i < n; i += k, j++)
+    //     cout << j << ' ';
+    // cout << endl;
+    // for (int i = 0, j = 0; i < n; i += k, j++)
+    //     cout << c[j] << ' ';
 }
 /*
 20
@@ -48,10 +45,10 @@ int main() {
 17 20
 8 16 
 2 19 
+output: 
 88
 8
 36
 63
 88
-
 */
